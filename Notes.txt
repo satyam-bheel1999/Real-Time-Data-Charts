@@ -1,0 +1,18 @@
+first we need to install chart.js reat-chartjs-2
+npm chart.js reat-chartjs-2
+chart.js - it is a js library for the dynamic visualization of charts.
+react-chartjs-2 - it is a react wrapper which is used to integrate Chart.js into React component
+import {Line} from 'react-chartjs-2' - used to import Line component from the chart.js
+Line component has a sevral data like : chart data and options
+const chartData = {
+  labels: ['January', 'February', 'March', 'April', 'May'],
+  datasets: [
+    {
+      label: 'My First dataset',
+      data: [65, 59, 80, 81, 56],
+      fill: false,
+      backgroundColor: 'rgba(75,192,192,0.4)',
+      borderColor: 'rgba(75,192,192,1)',
+    },
+  ],
+};
