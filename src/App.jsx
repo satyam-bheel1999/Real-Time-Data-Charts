@@ -1,10 +1,10 @@
 import React from 'react'
-import MyLineChart from './Component/MyLineChart'
+import RealTimeDataCharts from './Component/RealTimeDataCharts'
 
 function App() {
   return (
     <div>
-      <MyLineChart/>
+      <RealTimeDataCharts/>
     </div>
   )
 }
